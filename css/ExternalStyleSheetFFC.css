@@ -1,0 +1,93 @@
+@font-face {
+      font-family: mc;
+      src: url(fonts/MinecraftTen-VGORe.ttf);
+}
+body {
+	background-color: gray;
+	color: white;
+	font-family: "mc";
+	font-size: 18px;
+	text-align: center;
+}
+h1 {
+	background-color: black;
+	color: blue;
+	font-weight: 400;
+}
+p {
+	border: dashed 5px black;
+	padding: 99px;
+	height: 50%;
+	border-style: inset;
+	border-width: 10px; 
+	border-radius: 50px;
+	box-shadow: 10px 10px 10px black;
+}
+
+ul {
+	border: dashed 5px black;
+	border-style: inset;
+	border-width: 10px;
+	border-radius: 50px;
+	box-shadow: 10px 10px 10px black;
+	width: 30%;
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+
+table {
+	margin: auto;
+	width: 100%;
+	border: dashed 5px black;
+	padding: 5%;
+	border-style: inset;
+	border-width: 10px; 
+	border-radius: 50px;
+	box-shadow: 10px 10px 10px black;
+}
+tr {
+	width: 100%;
+}
+td {
+	width: 100%;
+}
+.container1 {
+	display: inline-block;
+	margin-left:auto;
+	margin-right: auto;
+	padding: 17px;
+}
+.container2{
+	display: flex;
+	align-items: center;
+
+}
+.container4{
+	display: inline-block;
+	display: flex;
+
+}
+.container6 {
+	display: flex;
+	align-items: center;
+}
+.container10 {
+	display: inline-block;
+	display: flex;
+	text-align: center;
+	margin: auto;
+}
+.container15{
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+}
+.column1 {
+	position:absolute;
+	left: 0;
+}
+.column2 {
+	position: absolute;
+	right: 0;
+	top: 320px;
+}
